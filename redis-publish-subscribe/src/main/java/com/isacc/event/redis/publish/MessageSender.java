@@ -17,7 +17,7 @@ import org.springframework.stereotype.Component;
  * @since 1.0
  */
 @EnableScheduling
-@Component
+//@Component
 public class MessageSender {
 
     private final StringRedisTemplate stringRedisTemplate;
